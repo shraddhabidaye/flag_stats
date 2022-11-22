@@ -54,7 +54,7 @@ class FlagStatsCount implements EventSubscriberInterface {
         ->condition('f.uid', $user_id, '=')
         ->execute()
         ->fetchAll();
-        // \Drupal::logger('entity_id_stat')->notice(print_r($all_fids));
+        
       foreach ($all_fids as $fid) {
         \Drupal::database()->delete('flag_stats')
           ->condition('fid', $fid->fid, '=')

@@ -1,4 +1,4 @@
-Flag Statistics for Drupal 8
+Flag Statistics for Drupal 9
 ============================
 
 Contents:
@@ -26,7 +26,7 @@ Current Flag Maintainers:
 Installation
 ------------
 
-Flag 8.x-1.0 is installed like any other Drupal 8 module and requires brief
+Flag 8.x-1.1 is installed like any other Drupal 9 module and requires brief
 configuration prior to use.
 
 1. Download the module to your DRUPAL_ROOT/modules directory, or where ever you
